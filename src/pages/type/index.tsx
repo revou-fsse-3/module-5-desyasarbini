@@ -2,7 +2,7 @@ import { Card } from '@/components'
 import Layout from '@/layout';
 import { GetServerSideProps, NextPage } from 'next';
 
-interface Props {
+interface HomeProps {
   pokemonData: PokemonData[];
 }
 
@@ -33,7 +33,7 @@ export interface PokemonType {
   };
 }
 
-const PokemonPage = ({ pokemonData }: Props) => {
+const PokemonPage: NextPage<HomeProps> = ({ pokemonData }) => {
   return (
     <Layout>
       <Card className="grid grid-cols-4 gap-4 m-5">
@@ -52,7 +52,7 @@ const PokemonPage = ({ pokemonData }: Props) => {
   );
 };
 
-export const getServerSideProps = async () => {
+export const getServerSideProps: GetServerSideProps<HomeProps> = async () => {
   const response = await fetch('https://pokeapi.co/api/v2/pokemon?limit=40&offset=0');
   const data: PokemonList = await response.json();
 

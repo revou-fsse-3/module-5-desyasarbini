@@ -2,6 +2,7 @@ import Layout from '@/layout'
 import { NextPageWithLayout } from './_app'
 import Head from 'next/head'
 import { Card } from '@/components'
+import Pokemon from './pokemon'
 
 const HomePage : NextPageWithLayout = () => {
   return (
