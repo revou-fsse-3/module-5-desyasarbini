@@ -31,6 +31,12 @@ const Navbar = () => {
                             {'category'}
                         </Link>
                     </li>
+                    <li className="py-2 lg:py-0 ">
+                        <input type="text" placeholder="search your pokemon"/>
+                        <Link passHref href={`/search`} className="text-red-600 hover:pb-4 hover:border-b-4 hover:border-yellow-400">
+                            {'search'}
+                        </Link>
+                    </li>
                 </ul>
                 <input type="text" />
             </nav>
