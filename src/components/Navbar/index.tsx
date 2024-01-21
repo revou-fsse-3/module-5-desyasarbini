@@ -1,5 +1,6 @@
 import Link from "next/link"
 
+
 const Navbar = () => {
 
     return (
@@ -31,6 +32,7 @@ const Navbar = () => {
                         </Link>
                     </li>
                 </ul>
+                <input type="text" />
             </nav>
             </div>
         </nav>

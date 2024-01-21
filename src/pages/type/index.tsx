@@ -31,7 +31,6 @@ const typePokemonPage = ({pokeTypes}: Props) => {
                     </Card>
                 ))}
             </Card>
-            
         </Layout>
     )
 }
