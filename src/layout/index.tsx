@@ -1,4 +1,5 @@
-import { Navbar } from "@/components"
+import { Navbar, PokemonCard } from "@/components"
+import PokemonGrid from "@/components/PokemonGrid"
 import { ReactNode } from "react"
 
 interface Props {
@@ -9,6 +10,8 @@ const Layout = ({children}: Props) => {
     return (
         <div>
             <Navbar/>
+            {/* <PokemonGrid/>
+            <PokemonCard/> */}
             {children}
         </div>
     )

@@ -13,7 +13,7 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li className="py-2 lg:py-0 ">
-                        <Link passHref href={`/type`} className="text-red-600 hover:pb-4 hover:border-b-4 hover:border-yellow-400">
+                        <Link passHref href={`/PokeCategory`} className="text-red-600 hover:pb-4 hover:border-b-4 hover:border-yellow-400">
                             {'category'}
                         </Link>
                     </li>

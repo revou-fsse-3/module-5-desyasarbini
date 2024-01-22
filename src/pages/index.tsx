@@ -1,7 +1,7 @@
 import Layout from '@/layout'
 import { NextPageWithLayout } from './_app'
 import Head from 'next/head'
-import { Card } from '@/components'
+import { Card, PokemonCard, PokemonGrid } from '@/components'
 import Pokemon from './pokemon'
 
 const HomePage : NextPageWithLayout = () => {
@@ -12,7 +12,7 @@ const HomePage : NextPageWithLayout = () => {
         <title>{'halaman index'}</title>
       </Head>
       <Card>
-        {'ini adalah content index'}
+        {'silahkan klik menu navbar'}
       </Card>
     </>
 
@@ -24,11 +24,3 @@ HomePage.getLayout = function getLayout(page) {
 }
 
 export default HomePage
-// localhost:3000/
-// export default function Home() {
-//   return (
-//     <div>
-
-//     </div>
-//   )
-// }

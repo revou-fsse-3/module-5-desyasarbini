@@ -21,7 +21,7 @@ export const getServerSideProps = async () => {
     }
 }
 
-const typePokemonPage = ({pokeTypes}: Props) => {
+const PokeCategory = ({pokeTypes}: Props) => {
     return (
         <Layout>
             <Card className="grid grid-cols-4 gap-4 m-5">
@@ -34,4 +34,4 @@ const typePokemonPage = ({pokeTypes}: Props) => {
         </Layout>
     )
 }
-export default typePokemonPage
+export default PokeCategory
