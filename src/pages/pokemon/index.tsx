@@ -39,7 +39,7 @@ const PokemonPage = ({ pokemonData }: Props) => {
         {pokemonData.map((pokemon, index) => (
           <Card key={index} className="border-2 border-gray-300 p-4 text-center">
             <h2>{pokemon.name}</h2>
-            <img src={pokemon.sprites.front_default} alt={pokemon.name} className='inline-block'/>
+            {/* <img src={pokemon.sprites.front_default} alt={pokemon.name} className='inline-block'/> */}
             <div className='flex gap-3 justify-center'>
               <p>{pokemon.weight}Kg</p>
               <p>{pokemon.height}M</p>
