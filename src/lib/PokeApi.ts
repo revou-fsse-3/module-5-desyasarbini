@@ -3,8 +3,13 @@ export const POKEMON_API_NAME = `${POKEMON_API_BASE}pokemon/`
 export const POKEMON_API_POKEMON_DETAIL = `${POKEMON_API_NAME}name`
 
 export interface Pokemon {
-  name: string;
-  url: string;
+  name: string
+  id: number
+  height: number
+  weight: number
+  sprites: {
+    front_default: string
+  };
 }
 
 export const getPokemonList = async (): Promise<Pokemon[]> => {
@@ -23,9 +28,26 @@ export const getPokemonList = async (): Promise<Pokemon[]> => {
   }
 };
 
+export const getPokemonDetails = async (pokemonName: string): Promise<Pokemon | null> => {
+  try {
+    const response = await fetch(`${POKEMON_API_BASE}pokemon/${pokemonName}`);
+    
+    if (!response.ok) {
+      throw new Error('Failed to fetch Pokémon details');
+    }
 
-// export async const getPokemon(name: string) {
-//     const response = await fetch(POKEMON_API_POKEMON_DETAIL)
-//     const data = await response.json()
-//     return data
-// }
+    const data = await response.json();
+    return {
+      name: data.name,
+      id: data.id,
+      height: data.height,
+      weight: data.weight,
+      sprites: {
+        front_default: data.sprites.front_default,
+      },
+    };
+  } catch (error) {
+    console.error('Error fetching Pokémon details:', (error as Error).message);
+    throw error;
+  }
+};
