@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PokemonCard component renders PokemonCard correctly 1`] = `
+<DocumentFragment>
+  <a
+    class="group rounded-full border-2 border-gray-200 m-3 px-5 py-4 text-center transition-colors bg-amber-200 hover:border-gray-300 hover:bg-amber-300"
+    href="pikachu"
+  >
+    <h2
+      class="text-2xl- front-semibold text-red-800 hover:text-zinc-100"
+    >
+      Pikachu
+    </h2>
+  </a>
+</DocumentFragment>
+`;

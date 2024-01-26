@@ -10,8 +10,6 @@ const Layout = ({children}: Props) => {
     return (
         <div>
             <Navbar/>
-            {/* <PokemonGrid/>
-            <PokemonCard/> */}
             {children}
         </div>
     )

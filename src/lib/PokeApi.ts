@@ -23,7 +23,7 @@ export const getPokemonList = async (): Promise<Pokemon[]> => {
     const data = await response.json();
     return data.results as Pokemon[];
   } catch (error) {
-    console.error('Error fetching Pokémon data:', (error as Error).message);
+    // console.error('Error fetching Pokémon data:', (error as Error).message);
     throw error;
   }
 };
@@ -47,7 +47,7 @@ export const getPokemonDetails = async (pokemonName: string): Promise<Pokemon | 
       },
     };
   } catch (error) {
-    console.error('Error fetching Pokémon details:', (error as Error).message);
+    // console.error('Error fetching Pokémon details:', (error as Error).message);
     throw error;
   }
 };

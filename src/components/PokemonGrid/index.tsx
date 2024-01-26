@@ -11,7 +11,7 @@ interface PokemonGridProps {
 
 const PokemonGrid: React.FC<PokemonGridProps> = ({pokemonList}: PokemonGridProps) => {
     const [ searchText, setSearchText ] = useState('')
-    console.log(pokemonList)
+    // console.log(pokemonList)
 
     const filteredPokemonList = pokemonList.filter((pokemon) =>
     pokemon.name.toLowerCase().includes(searchText.toLowerCase())

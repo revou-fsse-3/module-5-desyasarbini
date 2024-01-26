@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar component unit testing Navbar render correctly 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <nav
+        class="lg:px-16 px-6 bg-red-950 shadow-md flex-start flex-wrap items-center lg:py-4 py-2"
+      >
+        <div
+          class="hidden lg:flex lg:items-center lg:w-auto w-full"
+          id="menu"
+        >
+          <nav>
+            <ul
+              class="text-xl text-center items-center gap-x-5 pt-4 md:gap-x-4 lg:text-lg lg:flex  lg:pt-0"
+            >
+              <li
+                class="py-2 lg:py-0 "
+              >
+                <a
+                  class="text-amber-400 hover:pb-4 hover:border-b-4 hover:border-yellow-400"
+                  href="/pokemon"
+                >
+                  Pokemon
+                </a>
+              </li>
+              <li
+                class="py-2 lg:py-0 "
+              >
+                <a
+                  class="text-amber-400 hover:pb-4 hover:border-b-4 hover:border-yellow-400"
+                  href="/PokeCategory"
+                >
+                  category
+                </a>
+              </li>
+              <li
+                class="py-2 lg:py-0 "
+              >
+                <a
+                  class="text-amber-400 hover:pb-4 hover:border-b-4 hover:border-yellow-400"
+                  href="/search"
+                >
+                  search
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </nav>
+    </div>
+  </body>,
+  "container": <div>
+    <nav
+      class="lg:px-16 px-6 bg-red-950 shadow-md flex-start flex-wrap items-center lg:py-4 py-2"
+    >
+      <div
+        class="hidden lg:flex lg:items-center lg:w-auto w-full"
+        id="menu"
+      >
+        <nav>
+          <ul
+            class="text-xl text-center items-center gap-x-5 pt-4 md:gap-x-4 lg:text-lg lg:flex  lg:pt-0"
+          >
+            <li
+              class="py-2 lg:py-0 "
+            >
+              <a
+                class="text-amber-400 hover:pb-4 hover:border-b-4 hover:border-yellow-400"
+                href="/pokemon"
+              >
+                Pokemon
+              </a>
+            </li>
+            <li
+              class="py-2 lg:py-0 "
+            >
+              <a
+                class="text-amber-400 hover:pb-4 hover:border-b-4 hover:border-yellow-400"
+                href="/PokeCategory"
+              >
+                category
+              </a>
+            </li>
+            <li
+              class="py-2 lg:py-0 "
+            >
+              <a
+                class="text-amber-400 hover:pb-4 hover:border-b-4 hover:border-yellow-400"
+                href="/search"
+              >
+                search
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </nav>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
