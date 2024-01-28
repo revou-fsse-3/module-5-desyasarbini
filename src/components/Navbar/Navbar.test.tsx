@@ -7,5 +7,4 @@ describe('Navbar component unit testing', () => {
         const document =  render(<Navbar/>) 
         expect(document).toMatchSnapshot()
     })
-    
 })

@@ -23,7 +23,6 @@ describe('PokemonGrid component', () => {
     test('Pokemon Grid rendering correctly', () => {
         render(<PokemonGrid pokemonList={mockPokemonList} />)
         
-        // Verify that the PokemonGrid renders with the provided Pokemon list
         expect(screen.getByText('Pikachu')).toBeInTheDocument()
     })
   
